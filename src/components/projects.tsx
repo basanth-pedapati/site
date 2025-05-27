@@ -1,4 +1,3 @@
-import { FaGoogle, FaYoutube, FaApple } from "react-icons/fa";
 import { FaRocket, FaUsers, FaLaptopCode } from "react-icons/fa";
 
 const projects = [
