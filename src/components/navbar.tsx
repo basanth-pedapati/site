@@ -43,7 +43,7 @@ export default function Nav() {
           <Image
             alt="Logo"
             className="mr-1 ml-10 h-8 sm:h-9"
-            src="./pfp.svg"
+            src="./pfp.png"
             width={32}
             height={40}
           />
