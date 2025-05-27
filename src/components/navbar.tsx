@@ -43,7 +43,7 @@ export default function Nav() {
           <Image
             alt="Logo"
             className="mr-1 ml-10 h-8 sm:h-9"
-            src="./pfp.png"
+            src="/pfp.png"
             width={32}
             height={40}
           />
@@ -66,7 +66,7 @@ export default function Nav() {
           <NavbarItem>
             <Link 
               className="rounded-md px-3 py-1 transition-colors hover:gray-300 hover:bg-gray-100 active:bg-gray-200"
-              color="foreground" href="#"
+              color="foreground" href="#skills"
             >
               Skills
             </Link>
@@ -74,7 +74,7 @@ export default function Nav() {
           <NavbarItem isActive>
             <Link 
               className="rounded-md px-3 py-1 transition-colors hover:gray-300 hover:bg-gray-100 active:bg-gray-200"
-              aria-current="page" href="#"
+              aria-current="page" href="#projects"
             >
               Projects
             </Link>
@@ -82,7 +82,7 @@ export default function Nav() {
           <NavbarItem>
             <Link 
               className="rounded-md px-3 py-1 transition-colors hover:gray-300 hover:bg-gray-100 active:bg-gray-200"
-              color="foreground" href="#"
+              color="foreground" href="#contact"
             >
               Contact Me
             </Link>
