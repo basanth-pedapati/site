@@ -1,14 +1,11 @@
-import Navbar from "./components/navbar";
+import React from 'react';
 
 export default function Home() {
   return (
     <main>
-      <header>
-        <Navbar />
-      </header>
-      <section className="flex flex-col items-center">
+      <header className="flex flex-col items-center">
         <h1>Hero Section</h1>
-      </section>
+      </header>
     </main>
   );
 }
