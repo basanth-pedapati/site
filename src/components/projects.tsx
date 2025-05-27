@@ -34,7 +34,7 @@ export default function Projects() {
         My <span className="font-bold">Projects</span>
       </h2>
       <div className="flex flex-col gap-6 w-full max-w-2xl">
-        {projects.map((proj, idx) => (
+        {projects.map((proj) => (
           <a
             key={proj.title}
             href={proj.link}
