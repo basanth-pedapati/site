@@ -33,7 +33,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="www.linkedin.com/in/basanth-pedapati"
+            href="https://linkedin.com/in/basanth-pedapati"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
