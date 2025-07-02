@@ -1,11 +1,10 @@
 import React from 'react';
+import Hero from '../components/hero';
 
 export default function Home() {
   return (
     <main>
-      <header className="flex flex-col items-center">
-        <h1>Hero Section</h1>
-      </header>
+      <Hero />
     </main>
   );
 }
